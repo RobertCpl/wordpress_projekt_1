@@ -12,7 +12,6 @@ services:
 
   wordpress:
     image: robertcieplinksi/projekt_1:latest
-    pull: always
     container_name: wordpress_app_projekt_1
     depends_on:
       - mysql
