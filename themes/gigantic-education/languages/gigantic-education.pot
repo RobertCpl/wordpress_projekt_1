@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 16:59+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:75 functions.php:83 functions.php:105 functions.php:126
+msgid "Box Shadow"
+msgstr ""
+
+#: functions.php:90 functions.php:112 functions.php:133
+msgid "Box Shadow Medium"
+msgstr ""
+
+#: functions.php:97 functions.php:140
+msgid "Box Shadow Large"
+msgstr ""
+
+#: functions.php:119
+msgid "Box Shadow Larger"
+msgstr ""
+
+#: functions.php:147 functions.php:154 functions.php:162 functions.php:170
+msgid "Box Shadow on Hover"
+msgstr ""
+
+#: functions.php:179
+msgid "Secondary"
+msgstr ""
+
+#: inc/admin/info.php:37
+msgid " Info"
+msgstr ""
+
+#: inc/admin/info.php:45
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/info.php:127
+#, php-format
+msgid "Welcome to %s - "
+msgstr ""
+
+#: inc/admin/info.php:130
+msgid "Gigantic Pro offers more features and enhances your experience!"
+msgstr ""
+
+#: inc/admin/info.php:137
+msgid "Buy Now"
+msgstr ""
+
+#: patterns/about.php:34
+msgid "Introduction of us"
+msgstr ""
+
+#: patterns/about.php:38
+msgid "Lets Find Out, What We Are Offering To You"
+msgstr ""
+
+#: patterns/about.php:43 patterns/courses.php:20 patterns/latest-posts.php:20
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: patterns/about.php:53
+msgid "Learning With Expert"
+msgstr ""
+
+#: patterns/about.php:57 patterns/about.php:73 patterns/about.php:89
+#: patterns/courses.php:42 patterns/courses.php:82 patterns/courses.php:122
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis."
+msgstr ""
+
+#: patterns/about.php:69
+msgid "Learning Anywhere"
+msgstr ""
+
+#: patterns/about.php:85
+msgid "Flexible Classes"
+msgstr ""
+
+#: patterns/courses.php:12
+msgid "Industrial Standard"
+msgstr ""
+
+#: patterns/courses.php:16
+msgid "Most Featured Courses"
+msgstr ""
+
+#: patterns/courses.php:32
+msgid "Management"
+msgstr ""
+
+#: patterns/courses.php:38 patterns/courses.php:78 patterns/courses.php:118
+msgid "The Complete Advance Management Study"
+msgstr ""
+
+#: patterns/courses.php:52
+msgid "60+ Students"
+msgstr ""
+
+#: patterns/courses.php:58 patterns/courses.php:98 patterns/courses.php:138
+msgid "Enroll Course"
+msgstr ""
+
+#: patterns/courses.php:72
+msgid "Business"
+msgstr ""
+
+#: patterns/courses.php:92
+msgid "55+ Students"
+msgstr ""
+
+#: patterns/courses.php:112
+msgid "Technology"
+msgstr ""
+
+#: patterns/courses.php:132
+msgid "40+ Students"
+msgstr ""
+
+#: patterns/courses.php:148
+msgid "VIEW ALL COURSES"
+msgstr ""
+
+#: patterns/footer.php:14
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer.php:18
+msgid ""
+"Nisl libero ullamcorper id ipsum viverra mauris non pellentesque placerat "
+"lorem lacinia sagittis non pretium aliquet, fames quo."
+msgstr ""
+
+#: patterns/footer.php:24
+msgid "Useful Links"
+msgstr ""
+
+#: patterns/footer.php:29
+msgid "Help Center"
+msgstr ""
+
+#: patterns/footer.php:33
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer.php:37
+msgid "Online Form"
+msgstr ""
+
+#: patterns/footer.php:41
+msgid "Education Board"
+msgstr ""
+
+#: patterns/footer.php:48
+msgid "Organization"
+msgstr ""
+
+#: patterns/footer.php:53
+msgid "About"
+msgstr ""
+
+#: patterns/footer.php:57
+msgid "Courses"
+msgstr ""
+
+#: patterns/footer.php:61
+msgid "Appreciation"
+msgstr ""
+
+#: patterns/footer.php:65
+msgid "Association"
+msgstr ""
+
+#: patterns/footer.php:72
+msgid "Contact info"
+msgstr ""
+
+#: patterns/footer.php:77
+msgid "Jl. Niti Mandala Renon No.88, Denpasar, Bali – 80239"
+msgstr ""
+
+#: patterns/footer.php:81
+msgid "Phone : (316) 212-3456, Email : xyz@example.com"
+msgstr ""
+
+#: patterns/footer.php:86
+msgid "Follow Us On:"
+msgstr ""
+
+#: patterns/footer.php:105
+msgid "Copyright © 2025."
+msgstr ""
+
+#: patterns/footer.php:109
+msgid "All rights reserved. Theme Gigantic Education by Kortez Themes."
+msgstr ""
+
+#: patterns/header.php:26
+msgid "JOIN US"
+msgstr ""
+
+#: patterns/hero-banner.php:14
+msgid "Learning More Fun And Easy With Us"
+msgstr ""
+
+#: patterns/hero-banner.php:18
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis, pulvinar dapibus leo sit eiusmod."
+msgstr ""
+
+#: patterns/hero-banner.php:29
+msgid "Practical Knowledge"
+msgstr ""
+
+#: patterns/hero-banner.php:41
+msgid "Certified Institute"
+msgstr ""
+
+#: patterns/hero-banner.php:53
+msgid "Qualified Teachers"
+msgstr ""
+
+#: patterns/hero-banner.php:63
+msgid "GET STARTED"
+msgstr ""
+
+#: patterns/latest-posts.php:12
+msgid "Latest Posts"
+msgstr ""
+
+#: patterns/latest-posts.php:16
+msgid "Checkout Our Blog"
+msgstr ""
+
+#: patterns/primary-sidebar.php:16
+msgid "Archive"
+msgstr ""
+
+#: patterns/primary-sidebar.php:24
+msgid "Categories"
+msgstr ""
+
+#: patterns/primary-sidebar.php:32
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:40
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:48
+msgid "Social Links"
+msgstr ""
+
+#: patterns/template-404.php:19
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/template-search.php:27
+msgid "."
+msgstr ""
+
+#: patterns/template-search.php:45
+msgid "Sorry, but nothing matched your search terms. Try another search?"
+msgstr ""
