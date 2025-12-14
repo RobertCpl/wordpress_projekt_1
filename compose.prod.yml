@@ -24,7 +24,7 @@ services:
       - nginx-proxy_internal-net
 
 volumes:
-  db_projekt_1
+  db_projekt_1:
 networks:
   wordpress_network:
     driver: bridge
