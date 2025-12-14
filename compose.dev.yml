@@ -30,7 +30,7 @@ services:
       WORDPRESS_DB_PASSWORD: robert
       WORDPRESS_DB_NAME: wordpress
     volumes:
-      - ./:/var/www/html/wp-content
+      - ~/wordpress/projekt_1:/var/www/html/wp-content
     networks:
       - wordpress_network
 
