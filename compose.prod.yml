@@ -4,8 +4,6 @@ services:
     image: mysql:8.0
     container_name: mysql
     restart: unless-stopped
-    ports:
-      - 3306:3306
     environment:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: robert
@@ -17,7 +15,7 @@ services:
       - wordpress_network
 
   wordpress:
-    image: wordpress:latest
+    image: robertcieplinksi/projekt_1:latest
     container_name: wordpress_app
     depends_on:
       - mysql
@@ -33,12 +31,14 @@ services:
       - ~/wordpress/projekt_1:/var/www/html/wp-content
     networks:
       - wordpress_network
+      - nginx-proxy_internal-net
 
 volumes:
   db_data:
-
 networks:
   wordpress_network:
     driver: bridge
+  nginx-proxy_internal-net:
+    external: true
 
 
