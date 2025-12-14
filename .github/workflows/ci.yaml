@@ -53,5 +53,5 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            cd wordpress/projekt_1 \
+            cd wordpress/projekt_1
             docker compose -f compose.prod.yml up -d
