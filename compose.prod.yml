@@ -2,31 +2,24 @@
 services:
   mysql:
     image: mysql:8.0
-    container_name: mysql
+    container_name: mysql_projekt_1
     restart: unless-stopped
-    environment:
-      MYSQL_DATABASE: wordpress
-      MYSQL_USER: robert
-      MYSQL_PASSWORD: robert
-      MYSQL_ROOT_PASSWORD: robert
+    env-file: .env.prod
     volumes:
-      - db_data:/var/lib/mysql
+      - db_projekt_1:/var/lib/mysql    
     networks:
       - wordpress_network
 
   wordpress:
     image: robertcieplinksi/projekt_1:latest
-    container_name: wordpress_app
+    pull: always
+    container_name: wordpress_app_projekt_1
     depends_on:
-      - mysql
+      - mysql_projekt_1
     restart: unless-stopped
     ports:
       - 8080:80
-    environment:
-      WORDPRESS_DB_HOST: mysql:3306 # mysql container name
-      WORDPRESS_DB_USER: robert
-      WORDPRESS_DB_PASSWORD: robert
-      WORDPRESS_DB_NAME: wordpress
+    env-file: .env.prod
     volumes:
       - ~/wordpress/projekt_1:/var/www/html/wp-content
     networks:
@@ -34,7 +27,7 @@ services:
       - nginx-proxy_internal-net
 
 volumes:
-  db_data:
+  db_projekt_1:
 networks:
   wordpress_network:
     driver: bridge
