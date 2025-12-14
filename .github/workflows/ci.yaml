@@ -34,6 +34,9 @@ jobs:
     if: github.ref == 'refs/heads/main'
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Copy compose.prod.yml to VPS
         uses: appleboy/scp-action@v0.1.7
         with:
@@ -51,4 +54,4 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             cd wordpress/projekt_1
-            docker compose -f compose.prod.yml up -d 
+            docker compose -f compose.prod.yml up -d
